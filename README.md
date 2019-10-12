@@ -13,9 +13,18 @@ Inception V4 | 2016 | [1602.07261v2](https://arxiv.org/abs/1602.07261v2)
 Xception     | 2016 | [1610.02357v3](https://arxiv.org/abs/1610.02357v3)
 VGG | 2014 | [1409.1556](https://arxiv.org/abs/1409.1556)
 ResNet V1 | 2015 | [1512.03385](https://arxiv.org/abs/1512.03385)
+ResNet V2 | 2016 | [1603.05027](https://arxiv.org/abs/1603.05027)
+ResNeXt | 2016 | [1611.05431](https://arxiv.org/abs/1611.05431)
+DenseNet | 2016 | [1608.06993](https://arxiv.org/abs/1608.06993)
+ShuffleNetV1 | 2017 | [1707.01083](https://arxiv.org/abs/1707.01083)
+ShuffleNetV2 | 2018 | [1807.11164](https://arxiv.org/abs/1807.11164)
 MobileNet | 2017 | [1704.04861](https://arxiv.org/abs/1704.04861)
 MobileNetV2 | 2018 | [1801.04381v3](https://arxiv.org/abs/1801.04381v3)
 SENet | 2017 | [1709.01507](https://arxiv.org/abs/1709.01507)
+MnasNet | 2018 | [1807.11626](https://arxiv.org/abs/1807.11626)
+OctConv | 2019 | [1904.0509](https://arxiv.org/abs/1904.05049)
+MobileNetV3 | 2019 | [1905.02244](https://arxiv.org/abs/1905.02244)
+EfficientNet | 2019 | [1905.11946](https://arxiv.org/abs/1905.11946)
 
 ## AutoML
 
@@ -27,7 +36,7 @@ Auto-Keras | 2018 | [1806.10282](https://arxiv.org/abs/1806.10282)
 
 Model name | Published time | Link
 --- | --- | ---
-SelectiveSearch | 2012 | [personal link](www.huppelen.nl/publications/selectiveSearchDraft.pdf)
+SelectiveSearch | 2012 | [personal link](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf)
 R-CNN | 2014 | [1311.2524v5](https://arxiv.org/abs/1311.2524v5)
 Fast R-CNN | 2015 | [1504.08083v2](https://arxiv.org/abs/1504.08083v2)
 Faster R-CNN | 2016 | [1506.01497](https://arxiv.org/abs/1506.01497)
@@ -37,20 +46,34 @@ Speed/accuracy trade-offs | 2016 | [1611.10012v3](https://arxiv.org/abs/1611.100
 YOLOv1 | 2015 | [1506.02640](https://arxiv.org/abs/1506.02640)
 YOLO9000 | 2016 | [1612.08242](https://arxiv.org/abs/1612.08242)
 YOLOv3 | 2018 | [1804.02767](https://arxiv.org/abs/1804.02767)
+R-FCN | 2016 | [1605.06409](https://arxiv.org/abs/1605.06409)
 Focal Loss | 2017 | [1708.02002](https://arxiv.org/abs/1708.02002)
+Feature Pyramid Network | 2017 | [1612.03144](https://arxiv.org/abs/1612.03144)
+CornerNet | 2018 | [1808.01244](https://arxiv.org/abs/1808.01244)
+CenterNet | 2019 | [1904.07850](https://arxiv.org/abs/1904.07850)
+NAS-FPN | 2019 | [1904.07392](https://arxiv.org/abs/1904.07392)
 
 ## Semantic Segmentation
 
 Model name | Published time | Link
 --- | --- | ---
 FCN | 2015 | [1411.4038](https://arxiv.org/abs/1411.4038)
+DeepLabV1 | 2015 | [1412.7062](https://arxiv.org/abs/1412.7062)
+DeepLabV2 | 2016 | [1606.00915](https://arxiv.org/abs/1606.00915)
+DeepLabV3 | 2017 | [1706.05587](https://arxiv.org/abs/1706.05587)
+DeepLabV3+ | 2018 | [1802.02611](https://arxiv.org/abs/1802.02611)
+Dense-Prediction-Architecture-Search | 2018 | [1809.04184](https://arxiv.org/abs/1809.04184)
+Auto-DeepLab | 2019 | [1901.02985](https://arxiv.org/abs/1901.02985)
 
-## Spatial-temporal CNN
+## GAN
 
-Model | Published time | Link
+Model name | Published time | Link
 --- | --- | ---
-FCN-rLSTM | 2017 | [1707.09476](https://arxiv.org/abs/1707.09476)
-Bi-ConvLSTM | 2017 | [1707.07890](https://arxiv.org/abs/1707.07890)
+GAN | 2014 | [1406.2661](https://arxiv.org/abs/1406.2661v1)
+cGAN | 2014 | [1411.1784](https://arxiv.org/abs/1411.1784)
+DCGAN | 2015 | [1511.06434](https://arxiv.org/abs/1511.06434)
+image-to-image cGAN | 2016 | [1611.07004](https://arxiv.org/abs/1611.07004)
+CycleGAN | 2017 | [1703.10593](https://arxiv.org/abs/1703.10593)
 
 ## Pose Estimation
 
@@ -67,7 +90,40 @@ Paper | Published time | Link
 --- | --- | ---
 FaceNet | 2015 | [1503.03832](https://arxiv.org/abs/1503.03832)
 MTCNN | 2016 | [1604.02878v1](https://arxiv.org/abs/1604.02878v1)
+SSH | 2017 | [1708.03979](https://arxiv.org/abs/1708.03979)
 ArcFace | 2018 | [1801.07698](https://arxiv.org/abs/1801.07698)
+MobileFaceNet | 2018 | [1804.07573](https://arxiv.org/abs/1804.07573)
+RetinaFace | 2019 | [1905.00641](https://arxiv.org/abs/1905.00641)
+
+## Inference Framework and Pruning, Quantization, Compression
+
+Name | Published time | Link
+--- | --- | ---
+Caffe | 2014 | [1408.5093](https://arxiv.org/abs/1408.5093)
+Knowledge-Distilling | 2015 | [1503.02531](https://arxiv.org/abs/1503.02531)
+Learning-weights-and-connections | 2015 | [1506.02626](https://arxiv.org/abs/1506.02626)
+Deep-Compression | 2015 | [1510.00149](https://arxiv.org/abs/1510.00149)
+Pruning-Filters | 2016 | [1608.08710](https://arxiv.org/abs/1608.08710)
+TVM | 2018 | [1802.04799](https://arxiv.org/abs/1802.04799)
+Integer-Arithmetic-Inference | 2018 | [1712.05877](https://arxiv.org/abs/1712.05877)
+Quantization | 2018 | [1806.08342](https://arxiv.org/abs/1806.08342)
+
+## Medical Image Processing
+
+Name | Published time | Link
+--- | --- | ---
+MRI-sCT-Generation-Review | 2017 | [Radioation Oncology](https://ro-journal.biomedcentral.com/track/pdf/10.1186/s13014-016-0747-y)
+U-Net-Medical | 2015 | [1505.04597](https://arxiv.org/abs/1505.04597)
+Survey-DL-Medical | 2017 | [1702.05747](https://arxiv.org/abs/1702.05747)
+
+## Action Recognition and Spatial-temporal CNN
+
+Model | Published time | Link
+--- | --- | ---
+I3D | 2017 | [1705.07750](https://arxiv.org/abs/1705.07750)
+FCN-rLSTM | 2017 | [1707.09476](https://arxiv.org/abs/1707.09476)
+Bi-ConvLSTM | 2017 | [1707.07890](https://arxiv.org/abs/1707.07890)
+
 
 ## Image Super-Resolution
 
@@ -98,6 +154,7 @@ MPII | 2014 | [CVPR'14](http://human-pose.mpi-inf.mpg.de/contents/andriluka14cvp
 CrowdHuman | 2018 | [1805.00123](https://arxiv.org/abs/1805.00123)
 fddb | 2010 | [fddb](http://vis-www.cs.umass.edu/fddb/fddb.pdf)
 WIDER-FACE | 2015 | [1511.06523](https://arxiv.org/abs/1511.06523)
+MS-Celeb-1M | 2016 | [1607.08221](https://arxiv.org/abs/1607.08221)
 
 ## Other usage
 
